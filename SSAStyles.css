@@ -1,0 +1,210 @@
+body /*general Css format for the body of the website*/
+{
+	margin:auto;
+	padding:0;
+	font-family: sans-serif;
+	background: #ccc;
+	
+}
+/*Establish container perametes and the boundaries for the content*/
+.container
+{
+position: relative;
+width:99%;
+margin: 0 auto;
+background: #fff;
+padding: 20px;
+box-sizing: border-box;
+min-height: 200px;
+
+}/*Calls this class to set the perameters of the DIV elements*/
+.full-width
+{
+width: 95%;
+margin: 20px;
+padding-top: 5px;
+border-style: solid;
+border-width: .3em;	
+}
+/*Style the navigation elements of the site*/
+nav
+{
+width: 100%;
+}
+nav ul/*Styles the unordered list*/
+{
+	margin:20px;
+	padding: 0;
+	border-radius: 4px;
+	background: #262222;
+	overflow: hidden;
+	
+}
+nav ul li/*styles the elements in an unordered list*/
+{
+	list-style: none;
+	display: inline-block;
+	
+}
+nav ul li a /*styles the text of  the elements in an unordered list*/
+{
+	display:block;
+	padding:15px 20px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	
+}
+.active,/*keeps the :hover attribute over the active page on the website*/
+nav ul li a:hover 
+{
+	background:#112941;
+	
+}
+.col-7/*Style Div Elements*/
+{
+	width:70%;
+	min-height:400px;
+	float:left;
+}
+.col-3/*Style Div Elements*/
+{
+	width:28%;
+	min-height:400px;
+	background: #f1f1f1;
+	float:right;
+	box-sizing: border-box;
+	padding: 10px;
+	
+	
+}
+/*makes a class out of the top margin so that it can be controlled*/
+.margin-top20px
+{
+margin-top: 20px;	
+}
+.post
+{
+background: #555000;
+padding: 20px;
+background: #f1f1f1;	
+		
+}
+img
+{
+max-width: 90%;
+}
+h1
+{
+margin: 20px;
+padding:10px;
+}
+.col-3 ul
+{
+	margin: 20px;
+	padding:5px;
+}
+.col-3 ul li
+{
+	list-style:none;
+	padding: 8px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	
+}
+.col-3 ul li:hover
+{
+	background:#555555;
+	color:#000000;
+		
+}
+.footer-text
+{
+padding-top: 20px;
+text-align: center;
+	
+	
+}
+/*media queries for screens less than 900px*/
+
+@media (max-width:900px)
+{
+ .container
+ {
+ width: 100%;	
+ }
+ nav ul
+ {
+	 margin-bottom: 5px;
+ }
+ nav ul li
+{
+	
+	display: inline-block;
+	text-align:center;	
+	margin-bottom: 2px;
+}
+ .col-7, 
+ .col-3
+ {
+ width: 100%;
+ margin-top: 5px;
+ float: none;
+}
+ 
+}
+/*style media queries on screens less than 600 a large phone screen*/
+
+@media (max-width:600px)
+{
+ .container
+ {
+ width: 100%;	
+ }
+ img
+ {
+ 	width:100%;
+ 	align-self: center;
+ 	padding-left:1em;
+ }
+ nav ul
+ {
+	 margin-bottom: 5px;
+ }
+ nav ul li
+{
+	
+	display: block;
+	text-align:center;	
+	margin-bottom: 2px;
+}
+ .col-7, 
+ .col-3
+ {
+ width: 100%;
+ margin-top: 5px;
+ float: none;
+}
+/*discard the text area and label information when the media query is below 600px*/
+
+label, 
+textarea
+{
+	display: none;
+} 
+}
+/*Maximum collaps will be 400 px  the user will have to scroll to discover*/
+
+@media (max-width:400px)
+{
+ .container
+ {
+ min-width: 400px;	
+ }
+}
+ 
+
+
+
+
+
+

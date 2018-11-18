@@ -1,0 +1,57 @@
+/*
+Rashard Sanders
+09/25/2018
+
+
+*/
+
+body{ color: #ffffff;
+	background-color: #4A5B8A;
+		
+}
+/* Stytle for container centers the page and sets the element width*/
+#container {
+	width :80%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+/* Stytle for header specifies top and bottom margin, background color, rounded border, shadwand alignment*/	
+
+header{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background-color: #4A5B8A;
+	border-radius: 5px;
+	box-shadow: 12px 12px 12px #2e1488;
+	font-family: Verdana, Arial, sans-Serif;
+	font-size: 2em;
+	text-align: center;
+}
+/* Stytle for nav specifies text properties, padding, margins, and borders*/
+	nav
+		{
+			font-family: Verdana, Arial, sans-Serif;
+			font-size: .75em;
+			text-align: center;
+	
+}
+
+ 
+/*style for main specifies a block display, text properties, margins, padding, rounded border, and shadow */
+ main{
+	display: block;
+font-family: Verdana, Arial, sans-Serif;
+font-size: 1em;
+margin-top:	20px;
+color: #000000;
+margin-bottom: 10px;
+border-radius: 5px;
+background-color: #4A5B8A;
+
+ }
+ footer{
+	 
+	 display: block;
+ }
+
+
